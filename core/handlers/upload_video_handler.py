@@ -19,7 +19,7 @@ async def send_video_handler(bot, cmd, output_vid, video_thumbnail, duration, wi
         height=height,
         reply_to_message_id=cmd.message_id,
         supports_streaming=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/Doctorstra")],
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/Dads_links_bot")],
                                            [InlineKeyboardButton("Bots Channel", url="https://t.me/Dads_links")],
                                            [InlineKeyboardButton("Support Group", url="https://t.me/Dads_links")]]),
         progress=progress_for_pyrogram,
